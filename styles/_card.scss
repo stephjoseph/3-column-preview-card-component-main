@@ -1,0 +1,37 @@
+#main-card {
+  @include flex(justify-content, center, row);
+  width: 60vw;
+  height: 80vh;
+  border-radius: 10px;
+}
+
+.sedans-card {
+  @include flex(center, flex-start, column);
+  background: hsl(31, 77%, 52%);
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+
+  button {
+    color: hsl(31, 77%, 52%);
+  }
+}
+
+.suvs-card {
+  @include flex(center, flex-start, column);
+  background: hsl(184, 100%, 22%);
+
+  button {
+    color: hsl(184, 100%, 22%);
+  }
+}
+
+.luxury-card {
+  @include flex(center, flex-start, column);
+  background: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+
+  button {
+    color: hsl(179, 100%, 13%);
+  }
+}
