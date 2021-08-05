@@ -1,0 +1,51 @@
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  @include flex(center, center, row);
+  width: 100%;
+  height: 100%;
+  background: $background-color;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  font-size: $text;
+  color: hsla(0, 0%, 100%, 0.75);
+  margin: 0rem 3rem 5rem 4rem;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 2rem;
+}
+
+h2 {
+  font-size: $header2;
+  color: hsl(0, 0%, 95%);
+  margin: 3rem 3rem 3rem 4rem;
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+}
+
+button {
+  font-size: $text;
+  background: $background-color;
+  margin: 5rem 5rem 5rem 4rem;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 1.5rem 3rem;
+  border-radius: 50px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+img {
+  margin: 3rem 0rem 0rem 4rem;
+}

@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+/* Global Styles */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+  background: #f2f2f2;
+  overflow: hidden;
+  font-family: "Inter", sans-serif;
+}
+
+p {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0rem 3rem 5rem 4rem;
+  font-family: "Lexend Deca", sans-serif;
+  line-height: 2rem;
+}
+
+h2 {
+  font-size: 4rem;
+  color: #f2f2f2;
+  margin: 3rem 3rem 3rem 4rem;
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+}
+
+button {
+  font-size: 1.5rem;
+  background: #f2f2f2;
+  margin: 5rem 5rem 5rem 4rem;
+  border: none;
+  font-family: "Lexend Deca", sans-serif;
+  padding: 1.5rem 3rem;
+  border-radius: 50px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+img {
+  margin: 3rem 0rem 0rem 4rem;
+}
+
+#main-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify-content;
+  -ms-flex-pack: justify-content;
+  justify-content: justify-content;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 60vw;
+  height: 80vh;
+  border-radius: 10px;
+}
+
+.sedans-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #e38826;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.sedans-card button {
+  color: #e38826;
+}
+
+.sedans-card button:active {
+  background: #e38826;
+  color: rgba(255, 255, 255, 0.75);
+  border: rgba(255, 255, 255, 0.75) 2px solid;
+}
+
+.suvs-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #006970;
+}
+
+.suvs-card button {
+  color: #006970;
+}
+
+.suvs-card button:active {
+  background: #006970;
+  color: rgba(255, 255, 255, 0.75);
+  border: rgba(255, 255, 255, 0.75) 2px solid;
+}
+
+.luxury-card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background: #004241;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.luxury-card button {
+  color: #004241;
+}
+
+.luxury-card button:active {
+  background: #004241;
+  color: rgba(255, 255, 255, 0.75);
+  border: rgba(255, 255, 255, 0.75) 2px solid;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+/* Media Query */
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 50%;
+  }
+  #main-card {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .sedans-card {
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 10px;
+  }
+  .luxury-card {
+    border-top-right-radius: 0;
+    border-bottom-left-radius: 10px;
+  }
+  h2 {
+    margin: 2.5rem 3rem 3rem 4rem;
+  }
+  button {
+    margin: 0rem 5rem 5rem 4rem;
+  }
+  p {
+    margin: 0rem 3rem 2rem 4rem;
+  }
+  img {
+    width: 20%;
+    height: 20%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
