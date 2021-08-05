@@ -56,6 +56,10 @@ button {
   border-radius: 50px;
 }
 
+button:hover {
+  cursor: pointer;
+}
+
 img {
   margin: 3rem 0rem 0rem 4rem;
 }
@@ -102,6 +106,12 @@ img {
   color: #e38826;
 }
 
+.sedans-card button:active {
+  background: #e38826;
+  color: rgba(255, 255, 255, 0.75);
+  border: rgba(255, 255, 255, 0.75) 2px solid;
+}
+
 .suvs-card {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -121,6 +131,12 @@ img {
 
 .suvs-card button {
   color: #006970;
+}
+
+.suvs-card button:active {
+  background: #006970;
+  color: rgba(255, 255, 255, 0.75);
+  border: rgba(255, 255, 255, 0.75) 2px solid;
 }
 
 .luxury-card {
@@ -144,6 +160,12 @@ img {
 
 .luxury-card button {
   color: #004241;
+}
+
+.luxury-card button:active {
+  background: #004241;
+  color: rgba(255, 255, 255, 0.75);
+  border: rgba(255, 255, 255, 0.75) 2px solid;
 }
 
 .attribution {
