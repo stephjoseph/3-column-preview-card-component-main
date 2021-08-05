@@ -14,6 +14,12 @@
   button {
     color: hsl(31, 77%, 52%);
   }
+
+  button:active {
+    background: hsl(31, 77%, 52%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: hsla(0, 0%, 100%, 0.75) 2px solid;
+  }
 }
 
 .suvs-card {
@@ -22,6 +28,11 @@
 
   button {
     color: hsl(184, 100%, 22%);
+  }
+  button:active {
+    background: hsl(184, 100%, 22%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: hsla(0, 0%, 100%, 0.75) 2px solid;
   }
 }
 
@@ -33,5 +44,10 @@
 
   button {
     color: hsl(179, 100%, 13%);
+  }
+  button:active {
+    background: hsl(179, 100%, 13%);
+    color: hsla(0, 0%, 100%, 0.75);
+    border: hsla(0, 0%, 100%, 0.75) 2px solid;
   }
 }
